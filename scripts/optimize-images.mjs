@@ -38,8 +38,5 @@ for(const [index,[name,[width,height]]] of Object.entries(specs).entries()){
  manifest[name]={width,height,placeholder:isPlaceholder,blur:`data:image/webp;base64,${blur.toString('base64')}`};
 }
 await writeFile(new URL('src/config/images.json',root),JSON.stringify(manifest,null,2));
-const hero=await sharp(await readFile(new URL('hero-farm-1440.webp',dest))).resize(1200,630).modulate({brightness:.4}).toBuffer();
-const badge=await sharp(mascot).resize(230,184).toBuffer();
-const title=Buffer.from('<svg width="1200" height="630"><text x="90" y="390" fill="#faf7f0" font-size="82" font-family="Georgia">PorkHolic</text><text x="94" y="450" fill="#faf7f0" font-size="26" font-family="sans-serif">PIG FARM · KOMBAI, THENI · TAMIL NADU</text></svg>');
-await sharp(hero).composite([{input:badge,left:90,top:90},{input:title}]).jpeg({quality:80}).toFile(new URL('public/og-image.jpg',root).pathname.replace(/^\/(\w:)/,'$1'));
+await import('./generate-share-image.mjs');
 console.log('Images optimized; image manifest records any remaining placeholders.');

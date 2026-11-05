@@ -4,7 +4,7 @@ import {SITE_URL} from '@/config/site';
 import '@/styles/globals.css';
 const display=Fraunces({subsets:['latin'],variable:'--font-display',display:'swap',style:['normal','italic'],adjustFontFallback:true});
 const body=Manrope({subsets:['latin'],variable:'--font-body',display:'swap',adjustFontFallback:true});
-const shareImage = new URL('/og-image.jpg', SITE_URL).href;
+const shareImage = new URL('/share-preview-v2.jpg', SITE_URL).href;
 const title='PorkHolic | Pig Farm in Kombai, Theni, Tamil Nadu';
 const description='Discover PorkHolic, a pig farm in Theni. Get in touch with our pig farm in Kombai for enquiries about PorkHolic and pig farming in Tamil Nadu.';
 export const metadata:Metadata={metadataBase:new URL(SITE_URL),title,description,alternates:{canonical:'/'},openGraph:{title,description,url:SITE_URL,type:'website',locale:'en_IN',siteName:'PorkHolic',images:[{url:shareImage,width:1200,height:630,type:'image/jpeg',alt:'PorkHolic Pig Farm — Kombai, Theni'}]},twitter:{card:'summary_large_image',title,description,images:[shareImage]}};
