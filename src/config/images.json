@@ -1,0 +1,32 @@
+{
+  "hero-farm": {
+    "width": 2000,
+    "height": 1250,
+    "placeholder": false,
+    "blur": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAwBACdASoYAA8APwFqrE8rJiQiMAgBYCAJYwC/OB4bOYugy4t5kmPdYwAA/u6hmgxki+jf86jbrXASi5J5uEgWG6BmhqTMJdCdIdR0y/uvBzeH7gV99y59woM28kVfLlcB3Ehv2vnI+EnmCPOlCFhKAJOouxj0vVKMAu9X4vwAAA=="
+  },
+  "about-farm": {
+    "width": 1440,
+    "height": 1800,
+    "placeholder": false,
+    "blur": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAAAwBQCdASoYAB4APwF0sVOrJqQiqAgBYCAJYwCzgBEgWf9p6gEhuMAjk4Rq+R1Et5mwAAD82BEL5mZc2uC6jP3jZK44Z7FnlE64nVa90gFxFoqzxTX35PpfRHh84JfKdwIwzxwzo0i3Ux8YE3G6Eepf64suIzzI/TpUgq8zqpsY3vE7E4Pd31utbOPzJ5WOAYJ+6IQqR8We3VNz4t4I356QMDrj4AxvO3sB5UX/ueADyTFTb0m2iB7wvnZk0Qzqcg4X/0/zBGeb/j4AAAA="
+  },
+  "farm-piglets": {
+    "width": 1440,
+    "height": 1080,
+    "placeholder": false,
+    "blur": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAAAwBQCdASoYABIAPwFysFIrJqSiqAqpYCAJYwC7AywA0A63vziLkov1eO7baCxalhefAAD9bFNYrmAslTBwmPO027HUECmc7Eg17q1dll1XPzMf+6V9em4VqefPfAIN7v3wbGN8+u3oOnZf/ZGMAWVOOvw5IC1o/cBLaZcxXVCIUIO99UMoJq3IRjOVRFyxNeH89+q0L/gLyAA16aDc9TltiuSARcEe4AA="
+  },
+  "farm-environment": {
+    "width": 2000,
+    "height": 1250,
+    "placeholder": false,
+    "blur": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAAAwBACdASoYAA8APwFqrE8rJiQiMAgBYCAJagCdACBRv2SeP3NS9uKgYMAA9hCH3/905lqJoOZ7xEalZRHhFHY5u2u7yA4QZW21z+25nqpCByhTOzVtAhQL53Ne6ZMhncP3kxrl9y3+8fKjixjNzouNNH6ovqWOg5WS5+ibClvt7kDZylE1TUtBFPqAupf7Kwqd8ij6LsIeFkEs+qgAAA=="
+  },
+  "farm-detail": {
+    "width": 1440,
+    "height": 1440,
+    "placeholder": false,
+    "blur": "data:image/webp;base64,UklGRtoAAABXRUJQVlA4IM4AAACQBQCdASoYABgAPwF4tFQrJySjKAgBYCAJQBajbJDMAdIknJMXqdSggrSZodO87CytRjBDIAD+j4S/BJP0N771KqESPOiPs5d9GgUoTsoERDHk1sphk6Ao/28MI/DM8k0OGPG14l8GjGUrlhZlXuIosECArBjKc8aDqszih8rtBkXTgjeMGQe3/JPuGorC79mAFQtSx2BZUBNMuqOyBjAUgaO9IGCEfIpceeTiIQ46xt/eSxdsC89c9LBMHVusEUDPVrhT6gdQ/EcY9AAAAA=="
+  }
+}

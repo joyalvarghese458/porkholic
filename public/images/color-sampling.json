@@ -1,0 +1,23 @@
+{
+  "method": "8-step RGB histogram of red and dark pixels in original logo",
+  "dominantRed": [
+    "200,0,16",
+    47119
+  ],
+  "darkSamples": [
+    [
+      "0,0,0",
+      116433
+    ],
+    [
+      "8,8,8",
+      22136
+    ],
+    [
+      "8,0,0",
+      5478
+    ]
+  ],
+  "black": "#080808",
+  "burgundy": "red-derived darkened UI token #780e25"
+}
