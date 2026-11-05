@@ -17,11 +17,7 @@ for (const name of ['logo-transparent']) {
 }
 const mascot = await sharp(logoBuffer).extract({left:240,top:140,width:750,height:600}).png().toBuffer();
 await sharp(mascot).resize(400).webp({lossless:true}).toFile(new URL('logo.webp',dest).pathname.replace(/^\/(\w:)/,'$1'));
-await sharp(mascot).resize(64,64,{fit:'contain',background:'#faf7f0'}).png().toFile(new URL('icon.png',new URL('src/app/',root)).pathname.replace(/^\/(\w:)/,'$1'));
-await sharp(mascot).resize(180,180,{fit:'contain',background:'#faf7f0'}).png().toFile(new URL('apple-icon.png',new URL('src/app/',root)).pathname.replace(/^\/(\w:)/,'$1'));
-const icoPng = await sharp(mascot).resize(48,48,{fit:'contain',background:'#faf7f0'}).ensureAlpha().png().toBuffer();
-const header=Buffer.alloc(22); header.writeUInt16LE(1,2);header.writeUInt16LE(1,4);header[6]=48;header[7]=48;header.writeUInt16LE(1,10);header.writeUInt16LE(32,12);header.writeUInt32LE(icoPng.length,14);header.writeUInt32LE(22,18);
-await writeFile(new URL('src/app/favicon.ico',root),Buffer.concat([header,icoPng]));
+await import('./generate-favicon.mjs');
 const {data,info}=await sharp(logoBuffer).removeAlpha().raw().toBuffer({resolveWithObject:true});const buckets={},darkBuckets={};
 for(let i=0;i<data.length;i+=info.channels){const [r,g,b]=[data[i],data[i+1],data[i+2]];if(r>100&&r>g*2&&r>b*1.5){const key=[r,g,b].map(v=>Math.round(v/8)*8).join(',');buckets[key]=(buckets[key]||0)+1;}}
 const dominant=Object.entries(buckets).sort((a,b)=>b[1]-a[1])[0];

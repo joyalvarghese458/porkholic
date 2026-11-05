@@ -101,4 +101,17 @@ html{scroll-padding-top:calc(var(--nav-height) + 16px)}
 .faq-answer{padding:0 72px 24px 55px}
 .faq-answer p{font-size:14px;line-height:1.8}
 @media(max-width:767px){.faq-layout{grid-template-columns:1fr;gap:32px}.faq-intro h2{font-size:38px}.faq-intro>p:not(.eyebrow){margin-top:20px}.faq-item{border-radius:16px}.faq-item summary{min-height:76px;padding:18px 16px;gap:12px}.faq-item h3{font-size:14px}.faq-toggle{width:30px;height:30px}.faq-answer{padding:0 20px 22px 42px}.faq-answer p{font-size:14px}}
+.hero .button-row>.button:first-child{background:#faf0dd;color:#263d2c;border-color:#faf0dd}
+.hero .button-row>.button:first-child:hover{background:#eadcc2;border-color:#eadcc2}
+.whatsapp-icon{flex-shrink:0}
+.button.whatsapp-button,.quick-actions .button.whatsapp,.socials .whatsapp-social{background:#128c46;color:#fff;border-color:#128c46}
+.button.whatsapp-button:hover,.quick-actions .button.whatsapp:hover,.socials .whatsapp-social:hover{background:#0b7037;border-color:#0b7037}
+.faq-intro .whatsapp-link{color:#11763d;border-color:#11763d;gap:10px}
+.contact-row>.whatsapp-icon{color:#128c46}
+@media(max-width:767px){
+ .hero .button-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;width:100%;max-width:430px;align-items:stretch}
+ .hero .button-row .button{min-width:0;width:100%;min-height:50px;padding:12px 10px;font-size:11px;gap:6px;justify-content:center;white-space:nowrap}
+ .hero .button-row .button svg{width:15px;height:15px;flex-shrink:0}
+}
+@media(max-width:359px){.hero .button-row{gap:8px}.hero .button-row .button{font-size:10px;padding-inline:8px;gap:4px}.hero .button-row .button svg{width:13px;height:13px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.immersive>.picture{transform:none!important}}

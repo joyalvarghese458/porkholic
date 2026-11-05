@@ -5,6 +5,6 @@ export const site = {
  phones: ['+91 89439 58007', '+91 70126 13992'],
  whatsapp: 'https://wa.me/918943958007?text=' + encodeURIComponent('Hello PorkHolic, I would like to know more about your pig farm in Kombai, Theni.'),
  instagram: '', facebook: '',
- maps: 'https://www.google.com/maps/search/?api=1&query=Kombai%2C%20Theni%2C%20Tamil%20Nadu',
+ maps: 'https://maps.app.goo.gl/peX2UPpzYLKWbSUj9',
 };
 export const navigation = [['home','Home'],['about','About'],['farm','Our Farm'],['gallery','Gallery'],['contact','Contact']] as const;

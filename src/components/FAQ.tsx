@@ -1,3 +1,4 @@
+import {WhatsAppIcon} from './WhatsAppIcon';
 import {ArrowUpRight, Plus} from 'lucide-react';
 import {site} from '@/config/site';
 
@@ -15,7 +16,7 @@ export function FAQ() {
         <p className="eyebrow"><span/> A FEW THINGS TO KNOW</p>
         <h2 id="faq-heading">Good questions.<br/><em>Simple answers.</em></h2>
         <p>A little more about the farm.<br/>For anything else, we&apos;re a message away.</p>
-        <a className="text-link" href={site.whatsapp} target="_blank" rel="noopener noreferrer">Ask us on WhatsApp<ArrowUpRight size={18}/></a>
+        <a className="text-link whatsapp-link" href={site.whatsapp} target="_blank" rel="noopener noreferrer"><WhatsAppIcon size={18}/>Ask us on WhatsApp<ArrowUpRight size={18}/></a>
       </div>
       <div className="faq-list">
         {questions.map(({question, answer}, index) => <details key={question} name="farm-faq" className="faq-item">

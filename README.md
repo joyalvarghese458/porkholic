@@ -14,7 +14,7 @@ Open http://localhost:3000. `npm run build` produces the deployable `out/` direc
 
 ## Images
 
-The navbar, mobile menu and footer use the complete supplied logo artwork, with no separate typed brand name. The latest original is preserved in `_assets/logo-supplied.png`; transparent logo variants are used from `public/images/logo-transparent.webp`. CSS changes only the black wordmark and descriptor to white on dark backgrounds, retaining the red wordmark and pink mascot. The mascot crop is used for small application icons.
+The navbar, mobile menu and footer use the complete supplied logo artwork, with no separate typed brand name. The latest original is preserved in `_assets/logo-supplied.png`; transparent logo variants are used from `public/images/logo-transparent.webp`. CSS changes only the black wordmark and descriptor to white on dark backgrounds, retaining the red wordmark and pink mascot. Browser and application icons use a simplified pig-face asset for clarity at small sizes. Its source and generation details are in `_assets/FAVICON-PROMPT.md`.
 
 All five farm images are photorealistic AI-generated visuals, not photographs of PorkHolic. Originals live in `_assets/`, with responsive WebP versions in `public/images/`. Generation details and prompts are recorded in `_assets/IMAGE-PROMPTS.md`.
 
