@@ -101,6 +101,8 @@ html{scroll-padding-top:calc(var(--nav-height) + 16px)}
 .faq-answer{padding:0 72px 24px 55px}
 .faq-answer p{font-size:14px;line-height:1.8}
 @media(max-width:767px){.faq-layout{grid-template-columns:1fr;gap:32px}.faq-intro h2{font-size:38px}.faq-intro>p:not(.eyebrow){margin-top:20px}.faq-item{border-radius:16px}.faq-item summary{min-height:76px;padding:18px 16px;gap:12px}.faq-item h3{font-size:14px}.faq-toggle{width:30px;height:30px}.faq-answer{padding:0 20px 22px 42px}.faq-answer p{font-size:14px}}
+.hero .button-row>.button:first-child{background:#f4ead7;border-color:#f4ead7;color:#243c2b;box-shadow:0 3px 12px #00000012}
+.hero .button-row>.button:first-child:hover{background:#e9dcc3;border-color:#e9dcc3}
 .whatsapp-icon{flex-shrink:0}
 .button.whatsapp-button,.quick-actions .button.whatsapp,.socials .whatsapp-social{background:#128c46;color:#fff;border-color:#128c46}
 .button.whatsapp-button:hover,.quick-actions .button.whatsapp:hover,.socials .whatsapp-social:hover{background:#0b7037;border-color:#0b7037}
